@@ -15,6 +15,7 @@ body {
     position: fixed; 
   top: 0; 
   left: 0; 
+  overflow: auto;
 	
   /* Preserve aspet ratio */
   min-width: 100%;
@@ -47,10 +48,7 @@ header{
     font-style: italic; 
 }
 
-body {
-   
-    
-}
+
 
 .button {
   border-radius: 4px;
@@ -96,5 +94,25 @@ background{
     min-width: 100%;
 };
 p{
+    font-size: 2px;
+    
+}
+
+h1 {
     font-size: 80px;
+}
+
+
+h2{
+    font-size: 30px;
+}
+
+h5{
+    margin-left: 45px;
+    padding-left: 750px;
+}
+
+h3{
+    font-size:30px;
+   
 }
